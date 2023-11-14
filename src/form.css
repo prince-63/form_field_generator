@@ -1,0 +1,247 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Container styles */
+.container {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 60px;
+    padding: 20px;
+}
+
+.child_container {
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Form generator styles */
+.form_generator {
+    background-color: #dad7d7;
+    width: max-content;
+    height: max-content;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-body {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the div */
+.form-intro {
+    margin-bottom: 20px;
+}
+
+/* Style the h2 */
+.form-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the p */
+.form-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Form styles */
+.form {
+    width: 500px;
+    background-color: #dad7d7;
+    height: max-content;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.select-group,
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.select-group p,
+.input-group p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.select-group select,
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Form group styles */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Radio and checkbox option styles */
+.radio-option,
+.checkbox-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-option input[type="radio"],
+.checkbox-option input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Intro styles */
+.intro {
+    width: 1280px;
+    margin-bottom: 20px;
+}
+
+.intro h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Code output styles */
+.code_output {
+    width: 1000px;
+    margin-top: 20px;
+    background-color: #dad7d7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.code_output h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.code_output textarea {
+    width: 1000px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.code_output button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover styles */
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Form control focus styles */
+.form-control:focus,
+select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+/* Input group and select group styles */
+.input-group,
+.select-group {
+    margin-bottom: 20px;
+}
+
+.form-control,
+select {
+    font-size: 18px;
+}
+
+.form-control:focus,
+select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Radio option and checkbox option styles */
+.radio-option,
+.checkbox-option {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    margin-right: 10px;
+}
+
+.radio-option label,
+.checkbox-option label {
+    color: #666;
+}
